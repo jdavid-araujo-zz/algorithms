@@ -2,13 +2,13 @@ package algorithm.list.linked.doublylinkedlist;
 
 public class DoublyLinkedList<T> {
 
-	private Node<T> header, trailer;
+	private Node<T> header, tail;
 	private int size;
 
 	public DoublyLinkedList() {
 		this.header = new Node<T>(null, null, null);
-		this.trailer = new Node<T>(null, this.header, null);
-		this.header.setNext(trailer);
+		this.tail = new Node<T>(null, this.header, null);
+		this.header.setNext(tail);
 	}
 
 	public void addFirst(T data) {
@@ -53,7 +53,7 @@ public class DoublyLinkedList<T> {
 			return null;
 		}
 
-		return this.trailer.getData();
+		return this.tail.getData();
 	}
 
 	public boolean isEmpty() {
