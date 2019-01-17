@@ -73,4 +73,19 @@ public class SinglyLinkedList<T> {
 		return data;
 	}
 
+	public T firt() {
+		if (this.isEmpty()) {
+			return null;
+		}
+
+		return this.head.getData();
+	}
+
+	public T Last() {
+		if (this.isEmpty()) {
+			return null;
+		}
+
+		return this.tail.getData();
+	}
 }
