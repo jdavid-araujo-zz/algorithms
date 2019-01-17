@@ -73,7 +73,7 @@ public class SinglyLinkedList<T> {
 		return data;
 	}
 
-	public T firt() {
+	public T first() {
 		if (this.isEmpty()) {
 			return null;
 		}
