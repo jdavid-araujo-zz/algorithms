@@ -45,7 +45,7 @@ public class DoublyLinkedList<T> {
 			return null;
 		}
 
-		return this.header.getData();
+		return this.header.getNext().getData();
 	}
 
 	public T last() {
@@ -53,7 +53,7 @@ public class DoublyLinkedList<T> {
 			return null;
 		}
 
-		return this.tail.getData();
+		return this.tail.getPrev().getData();
 	}
 
 	public boolean isEmpty() {
