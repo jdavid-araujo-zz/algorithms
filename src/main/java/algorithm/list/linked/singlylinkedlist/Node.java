@@ -1,4 +1,4 @@
-package algorithm.list.linked;
+package algorithm.list.linked.singlylinkedlist;
 
 public class Node<T> {
 

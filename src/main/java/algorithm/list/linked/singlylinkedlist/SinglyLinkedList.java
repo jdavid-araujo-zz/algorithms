@@ -1,4 +1,4 @@
-package algorithm.list.linked;
+package algorithm.list.linked.singlylinkedlist;
 
 public class SinglyLinkedList<T> {
 
@@ -87,5 +87,9 @@ public class SinglyLinkedList<T> {
 		}
 
 		return this.tail.getData();
+	}
+	
+	public int size() {
+		return this.size;
 	}
 }
