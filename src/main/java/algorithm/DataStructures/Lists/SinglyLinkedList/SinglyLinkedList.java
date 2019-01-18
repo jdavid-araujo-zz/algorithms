@@ -1,4 +1,4 @@
-package algorithm.list.linked.singlylinkedlist;
+package algorithm.DataStructures.Lists.SinglyLinkedList;
 
 public class SinglyLinkedList<T> {
 

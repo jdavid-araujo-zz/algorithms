@@ -1,4 +1,4 @@
-package algorithm.list.linked.doublylinkedlist;
+package algorithm.DataStructures.Lists.DoublyLinkedList;
 
 public class DoublyLinkedList<T> {
 

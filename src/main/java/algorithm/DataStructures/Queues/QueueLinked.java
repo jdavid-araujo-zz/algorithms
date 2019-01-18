@@ -1,6 +1,6 @@
-package algorithm.datatype.queue;
+package algorithm.DataStructures.Queues;
 
-import algorithm.list.linked.singlylinkedlist.SinglyLinkedList;
+import algorithm.DataStructures.Lists.SinglyLinkedList.SinglyLinkedList;
 
 public class QueueLinked<T> implements Queue<T> {
 

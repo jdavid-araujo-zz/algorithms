@@ -1,6 +1,6 @@
-package algorithm.datatype;
+package algorithm.DataStructures.Stacks;
 
-import algorithm.list.linked.singlylinkedlist.SinglyLinkedList;
+import algorithm.DataStructures.Lists.SinglyLinkedList.SinglyLinkedList;
 
 public class StackLinked<T> implements Stack<T> {
 

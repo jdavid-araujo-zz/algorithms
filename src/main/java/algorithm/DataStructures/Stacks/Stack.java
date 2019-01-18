@@ -1,4 +1,4 @@
-package algorithm.datatype;
+package algorithm.DataStructures.Stacks;
 
 public interface Stack<T> {
 

@@ -1,4 +1,4 @@
-package algorithm.datatype.queue;
+package algorithm.DataStructures.Queues;
 
 public interface Queue<T> {
 	
