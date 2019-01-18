@@ -35,7 +35,7 @@ public class ArrayList<T> {
 	}
 	
 	public T set(int index, T data) {
-		this.chechLimit(index, this.size + 1);
+		this.chechLimit(index, this.size);
 
 		T element = this.data[index];
 		this.data[index] = data;
