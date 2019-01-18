@@ -48,7 +48,7 @@ public class ArrayList<T> {
 
 		T data = this.data[index];
 		
-		for(int i= index; i < (this.size + 1); i++) {
+		for(int i= index; i < (this.size - 1); i++) {
 			this.data[i] = this.data[i+1];
 		}
 		
